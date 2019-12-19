@@ -1,0 +1,108 @@
+/*
+Theme Name: River & Royal
+Theme URI: https://riverandroyal.com
+Author: Sophie
+Author URI: https://riverandroyal.com
+Description: A basic theme using the Bootstrap framework.
+Version: 1.0
+Text Domain: bootstrapstarter
+*/
+
+/*** BASE STYLES ***/
+html {
+  font-size: 16px;
+  font-family: 'Arimo';
+}
+body
+{
+text-align: left;
+}
+
+#ttr_sidebar
+{
+background-image: url("../img/popcorn.jpg");
+}
+
+#ttr_sidebar .pic-of-me {
+
+}
+#ttr_footer
+{
+width: 100%;
+border-top: 10px #16425B solid;
+text-align: center;
+font-family: 'Lobster';
+}
+.title
+{
+font-size: 11pt;
+font-family: verdana;
+font-weight: bold;
+}
+
+#ttr_header.jumbotron h1 {
+  font-family: 'Lobster';
+  color:#16425B;
+  font-size: 4em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#ttr_header.jumbotron span {
+  border-bottom: 5px #B0413E solid;
+}
+#ttr_header.jumbotron p {
+    text-align: center;
+    font-size: 1em;
+}
+
+#ttr_content {
+  background-color: white;
+}
+
+/*** NAV ***/
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.menu {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*** BLOG POSTS ***/
+#blog-posts h2 {
+  font-family: 'Arimo';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+h2 span {
+  background-color: #F2AF29;
+}
+
+div#blog-post {
+margin-top: 30px;
+padding: 15px;
+background-color: #e9ecef;
+
+}
+
+.read-more a {
+  color: #B0413E;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*** SIDEBAR ***/
+
+.summary h3 {
+  font-family: 'Lobster';
+}
